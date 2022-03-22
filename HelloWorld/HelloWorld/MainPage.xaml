@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HelloWorld.MainPage">
+
+    <StackLayout BackgroundColor="Blue" Margin="15,20,15,20" >
+        <Label x:Name="lblName" Text="Hellow Xamarin"></Label>
+        <Entry x:Name="entryName" Placeholder="Enter some text here"></Entry>
+        <Button x:Name="btnSubmit" Text="Submit" Clicked="btnSubmit_Clicked"></Button>
+    </StackLayout>
+
+        
+</ContentPage>
